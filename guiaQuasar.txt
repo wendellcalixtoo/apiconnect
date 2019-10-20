@@ -1,0 +1,15 @@
+﻿Para instalar o Quasar Cli
+Requisitos:
+Node >= 8 (p/ verificar a versão do Node "node --version")
+NPM >= 5 (p/ verificar a versão do npm "npm --version")
+
+Instalar o Vue:
+npm install -g vue-cli (p/ verificar a versão do Vue "vue --version")
+
+Instalar o Quasar:
+npm install -g quasar-cli (p/ verificar a versão do Qausar "quasar --version")
+
+Para criar um projeto Quasar:
+quasar init <nome do projeto>
+Ex: quasar init apiconnect
+
