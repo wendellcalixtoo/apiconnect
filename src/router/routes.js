@@ -2,11 +2,11 @@
 const routes = [
   {
     path: '/',
-    component: () => import('layouts/MyLayout.vue'),
+    component: () => import('../layouts/MyLayout.vue'),
     children: [
       { path: '', component: () => import('pages/Index.vue') },
-      { path: 'cadCliente', component: () => import('pages/CadCliente.vue') },
-      { path: 'cadPet', component: () => import('pages/CadPet.vue') }
+      { path: 'cadCliente', component: () => import('../pages/CadCliente.vue') },
+      { path: 'cadPet', component: () => import('../pages/CadPet.vue') }
     ]
   }
 ]
